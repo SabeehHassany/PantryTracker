@@ -174,16 +174,22 @@ const addSingleItem = async (item) => {
   // Display and Functioning interface
   return (
     <Box
-      width="100vw"
-      height="100vh"
-      display={'flex'}
-      justifyContent={'center'}
-      flexDirection={'column'}
-      alignItems={'center'}
-      gap={2}
-      bgcolor={'#f7f7f7'} // Light background color
-      padding={3} // Padding for better spacing
-    >
+    width="100vw"
+    height="100vh"
+    display={'flex'}
+    flexDirection={'column'}
+    alignItems={'center'}
+    gap={2}
+    bgcolor={'#f7f7f7'} // Light background color
+    padding={3} // Padding for better spacing
+  >
+    {/* Your Name at the Top Left */}
+    <Box width="100%" display={'flex'} justifyContent={'flex-start'} paddingLeft={0} marginBottom={10}>
+      <Typography variant="h7" color={'#333'}>
+        Made by Sabeeh Hassany using Next.js, Material UI, and Firebase.
+      </Typography>
+    </Box>
+
       {/* Add Item Modal */}
       <Modal
         open={open}
