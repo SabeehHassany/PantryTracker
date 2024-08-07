@@ -4,3 +4,29 @@
   padding: 0;
   margin: 0;
 }
+
+.header-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #333;
+  padding: 0 20px;
+}
+
+.item-cell {
+  flex: 1;
+  text-align: center; /* Align text to the left */
+  padding-left: 15px; /* Add padding to align with items */
+  display: flex;
+}
+
+.header-cell {
+  text-align: center; /* Align text to the left */
+  display: flex;
+  padding-right: 55px; /* Add padding to align with items */
+}
