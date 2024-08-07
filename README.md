@@ -1,3 +1,16 @@
+# Pantry Management Application
+ * This application helps manage pantry inventory using Javascript, Next.js, Material UI, and Firebase.
+ * The user can add, delete, and categorize items.
+ * Items can be searched and sorted
+ * The user can sign in using email and password and create custom inventory
+ * The application is be deployed using Vercel.
+
+## Future Directions
+* Improve the app’s responsiveness to ensure it works well on mobile devices.
+* Allow users to export their inventory data in formats like CSV or PDF.
+* Enhance UI to make more appealing and clean
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
